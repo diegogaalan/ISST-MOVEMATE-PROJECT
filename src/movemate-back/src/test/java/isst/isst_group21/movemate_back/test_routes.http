@@ -1,0 +1,59 @@
+### Registro de Usuario
+POST http://localhost:8080/registro/usuario
+Content-Type: application/json
+
+{
+  "id": "usuariox26",
+  "email": "usuario@prueba.com",
+  "password": "qwertyuiop",
+  "nombre": "Usuario",
+  "apellidos": "Prueba",
+  "numTelefono": "600000000"
+}
+
+### Registro de Organizador
+POST http://localhost:8080/registro/organizador
+Content-Type: application/json
+
+{
+  "id": "52908234D",
+  "email": "organizador@prueba.com",
+  "password": "12345y",
+  "nombre": "Organizador",
+  "apellidos": "Eventos",
+  "numTelefono": "600000001"
+}
+
+### Login Usuario
+POST http://localhost:8080/login
+Content-Type: application/json
+
+{
+  "email": "usuario@prueba.com",
+  "password": "qwertyuiop"
+}
+
+### Login Organizador
+POST http://localhost:8080/login
+Content-Type: application/json
+
+{
+  "email": "organizador@prueba.com",
+  "password": "12345y"
+}
+
+### Crear Actividad (Organizador)
+POST http://localhost:8080/organizadores/09876542E/misActividades/crearActividad
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhbGV4QGV4YW1wbGUuY29tIiwicm9sZSI6InVzdWFyaW8iLCJpZCI6ImFsZXhtYXJmZXIiLCJpYXQiOjE3NDMyOTQyMTIsImV4cCI6MTc0MzM4MDYxMn0.rF4V0mOlkP6se1fY7_ZIzxA75twHN_EkIEAz9gopxHQ
+Content-Type: application/json
+
+{
+  "nombre": "Clase de Yoga en el Retiro",
+  "descripcion": "Sesión relajante de yoga al aire libre",
+  "fechaHora": "2025-04-05T10:30:00",
+  "precio": 10.0,
+  "ubicacion": "Parque del Retiro, Madrid",
+  "latitud": 40.415,
+  "longitud": -3.684,
+  "categoria": "YOGA"
+}
