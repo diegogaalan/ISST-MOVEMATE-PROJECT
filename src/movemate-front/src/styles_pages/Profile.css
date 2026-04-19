@@ -1,0 +1,160 @@
+.profile-page {
+    background-color: #0f2537;
+    color: #f5deb3;
+    min-height: 100vh;
+    padding: 20px;
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+}
+
+.header h1 {
+    font-size: 2em;
+    font-weight: bold;
+    margin-bottom: 0.2em;
+}
+
+.header p {
+    color: #ccc;
+    margin-bottom: 1.5em;
+}
+
+.profile-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 2em;
+}
+
+
+.profile-avatar {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: white;
+    padding: 10px;
+    margin-bottom: 0.5em;
+}
+
+
+.profile-role {
+    color: #00a088;
+    font-weight: bold;
+    margin-bottom: 0.2em;
+}
+
+.profile-email {
+    font-weight: bold;
+    color: #d2b48c;
+    margin-bottom: 0.2em;
+}
+
+.profile-username {
+    color: #ccc;
+    margin-bottom: 1.5em;
+}
+
+.profile-form input {
+    width: 80%;
+    padding: 10px;
+    margin-bottom: 1em;
+    border-radius: 15px;
+    border: none;
+    font-size: 1em;
+}
+
+.btn-update {
+    background-color: #008080;
+    color: white;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 15px;
+    font-size: 1em;
+    cursor: pointer;
+    margin-bottom: 1.5em;
+}
+
+.btn-logout {
+    background-color: #0f2537;
+    color: #008080;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 15px;
+    font-size: 1em;
+    font-weight: bold;
+    cursor: pointer;
+    opacity: 0.9;
+}
+
+.btn-delete {
+    margin-top: 1rem;
+    background-color: #e74c3c;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.btn-delete:hover {
+    background-color: #c0392b;
+}
+
+.error-box {
+    background-color: #ffe6e6;
+    border: 1px solid #e74c3c;
+    color: #e74c3c;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+}
+.error-box ul {
+    margin: 0;
+    padding-left: 20px;
+}
+.error-box li {
+    list-style: disc;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.profile-page input {
+    margin-bottom: 10px;
+    width: 80%;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: #1B263B;
+    color: white;
+}
+
+.profile-page button {
+    width: 80%;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: #1B998B;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.profile-page button:hover {
+    background-color: #157A6E;
+}

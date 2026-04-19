@@ -1,0 +1,27 @@
+.auth-selection {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #0f2537;
+    gap: 1.2rem; 
+    padding-top: 2rem; 
+}
+
+.auth-selection h1 {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.auth-selection button {
+    width: 60%;
+    margin: 10px 0;
+}
+.auth-logo {
+    width: 90%;
+    max-width: 420px;
+    height: auto;
+    margin-bottom: -1.5rem; 
+    margin-top: -11rem; 
+}

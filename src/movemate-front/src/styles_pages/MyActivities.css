@@ -1,0 +1,111 @@
+.activities-page {
+    background-color: #0f2537;
+    min-height: 100vh;
+    padding: 20px;
+    font-family: 'Arial', sans-serif;
+    color: #f5deb3;
+}
+
+.title {
+    font-size: 2em;
+    font-weight: bold;
+    margin-bottom: 0.2em;
+    text-align: center;
+}
+
+.subtitle {
+    color: #ccc;
+    margin-bottom: 1.5em;
+    text-align: center;
+}
+
+.activities-list {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5em;
+    align-items: center;
+}
+
+.activity-card {
+    display: flex;
+    background-color: #162c3c;
+    border-radius: 20px;
+    overflow: hidden;
+    padding: 10px;
+    align-items: center;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    width: 90%;
+    max-width: 500px;
+}
+
+.activity-img {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 15px;
+    margin-right: 15px;
+    flex-shrink: 0;
+}
+
+.activity-info {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.activity-info h2 {
+    margin: 0 0 0.3em 0;
+    font-size: 1.2rem;
+    color: #f5deb3;
+}
+
+.status {
+    font-weight: bold;
+}
+
+.status.pendiente {
+    color: #ffc107;
+}
+
+.status.aprobada {
+    color: #00c38e;
+}
+
+.status.rechazada {
+    color: #e74c3c;
+}
+
+.bottom-button-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 2em;
+}
+
+.reserve-button {
+    background-color: #00c38e;
+    color: white;
+    padding: 18px 36px;
+    border: none;
+    border-radius: 12px;
+    font-size: 1.3rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.reserve-button:hover {
+    background-color: #009b72;
+}
+
+.delete-button {
+    background-color: #e74c3c;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 10px;
+}
