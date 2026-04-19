@@ -221,7 +221,6 @@ Before deploying this project to production, it is strongly recommended to:
 ## Authors
 
 - **Diego Galán Baquero**
-- **Aitana Cuadra Cano**
 
 ## Academic Context
 
